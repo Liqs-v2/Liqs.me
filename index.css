@@ -1,0 +1,79 @@
+html,body{height:93.5%;}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+
+
+/*Use this if you want full image, remove to cut bottom off*/
+#bgCarousel img
+{
+    height:100%;/* % scaling not working, find something better here maybe */
+    width: 100%;
+}
+
+
+/*Carousel*/
+.carousel-indicators li
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: transform 500ms;
+}
+
+.carousel-indicators li:hover
+{
+   background-color: #FF7D0A /*Indicator dont use the color attribute, use background-color to adjust color*/;
+    border-color: #FF7D0A;
+}
+
+.carousel-indicators .active
+{
+    transform: scale(1.5);
+}
+
+/*Intro Content*/
+#introContent
+{
+    text-align: center;/* for buttons*/
+}
+
+#introContent p
+{
+   text-align: justify;
+}
+
+/* Text sizes
+    Big Head 42pt
+    Small Head 24pt
+    Text 12pt  lh: 16pt*/
+
+#introContentHead
+{
+    width: 100%;
+    background-color: #FF7D0A;
+    color: white;
+    font-size: 42pt;
+    font-family: "Droid Sans";
+    margin-bottom: 1%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+#intoContentText
+{
+    font-size: 12pt;
+    line-height: 18pt;
+}
+
+.btn-info /*Override button style*/
+{
+    background-color: #FF7D0A;
+    border-color: #f07000;
+    margin-top: 5%;
+}
+
+/*colorhexa.com best website eu*/
+.btn-info:hover /*Override button style*/
+{
+    background-color: #f07000; /*#2AA53B Healing Touch color*/
+    border-color: #FF7D0A;
+}

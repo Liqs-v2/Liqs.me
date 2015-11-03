@@ -1,0 +1,69 @@
+/* Footer */
+#footer
+{
+    border: 1px solid #FF7D0A;
+    color: black;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    font-size: 8pt;
+    font-family: "Droid Sans";
+    position:relative;
+}
+
+#footer a
+{
+    color: black;
+    text-decoration: none;
+}
+
+#footer ul:hover a
+{
+    color: #FF7D0A;
+}
+
+#footer hr
+{
+    width: 80%;
+    height: 1px;
+    background-color: #FF7D0A;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 0px;
+}
+
+#footerContent
+{
+    margin-left: 6.5%;
+    margin-top: 1%;
+}
+
+#footerRight
+{
+    margin-left:20.5%;
+}
+
+#footerContent ul
+{
+    display: inline;
+}
+
+#footerCopy
+{
+    margin-left: 9%;
+    margin-bottom: 1%;
+}
+
+#footerCopy ul
+{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footerCopyRight
+{
+    margin-left: 51%;
+}

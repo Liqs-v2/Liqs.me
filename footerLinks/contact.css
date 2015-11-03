@@ -1,0 +1,43 @@
+#content
+{
+    margin-top: 10%;
+}
+
+h2
+{
+    margin-top: 0%;
+    font-family: "Droid Sans";
+}
+
+h4
+{
+    font-size: 14pt;
+    margin: 0%;
+    padding: 0%;
+}
+
+.inlineLink
+{
+    color: #FF7D0A;
+    text-decoration: none;
+}
+
+.inlineLink:hover
+{
+    color: black;
+    border-bottom: 1px solid #FF7D0A;
+    text-decoration: inherit;
+}
+
+.col-md-6
+{
+    margin: 0%;
+    padding: 0%;
+    align-content: center;
+}
+
+.well
+{
+    width: 40%;
+    border-color: #FF7D0A;
+}
