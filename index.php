@@ -35,6 +35,7 @@
         <div class="carousel-inner">
 
             <!-- nav -->
+            <?php $indexReloader="" ?>
             <?php $dirHelper="mainSites/" ?>
             <?php include("includes/nav.php") ?>
 

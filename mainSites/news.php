@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Liqs | Web</title>
+    <title>Liqs | News</title>
 
     <!-- Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -24,6 +24,7 @@
       <!-- My HTML Code-->
        <!-- Workaround for the directory structor discrepancies-->
         <?php $dirHelper="" ?>
+        <?php $indexReloader="../" ?>
         <!--Nav-->
         <?php include("../includes/nav.php") ?>
         <!--Content-->

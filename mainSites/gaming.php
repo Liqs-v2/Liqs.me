@@ -24,6 +24,7 @@
       <!-- My HTML Code-->
        <!-- Workaround for the directory structor discrepancies-->
         <?php $dirHelper="" ?>
+        <?php $indexReloader="../" ?>
 
 
       <!--Content-->

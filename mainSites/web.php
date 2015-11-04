@@ -24,14 +24,24 @@
       <!-- My HTML Code-->
        <!-- Workaround for the directory structor discrepancies-->
         <?php $dirHelper="" ?>
-        <!--Nav-->
-        <?php include("../includes/nav.php") ?>
-        <!--Content-->
+        <?php $indexReloader="../" ?>
+
+
+      <!--Content-->
         <div id="content">
+            <div id="mainSiteBG">
+                <img src="../Pictures/eSports.jpg">
+                  <?php include("../includes/nav.php") ?>
+                <div id="jumboHeader">
+                    <h1>Web Stuff</h1>
+                </div>
+            </div>
+            <div id="darkSperator"></div>
+            <div id="triangleDown"></div>
             <div class="container">
                 <div class="row">
                     <div class="content col-md-12">
-                 wwwww    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam v clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam v
+                 ggggg    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam v clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam v
                     </div>
                 </div>
             </div>
