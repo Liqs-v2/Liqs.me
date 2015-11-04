@@ -46,6 +46,14 @@ html,body{height:93.5%;}
     Small Head 24pt
     Text 12pt  lh: 16pt*/
 
+#introContentDark
+{
+    min-height: 15px;
+    width: 100%;
+    background-color: #d66400; /*d66400 a34c00*/
+    position: relative;
+}
+
 #introContentHead
 {
     width: 100%;

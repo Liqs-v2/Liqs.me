@@ -25,7 +25,7 @@
 {
     position: absolute;
     top: 7.5%;/* WHy are 6.6 and 7.5 turning over the same results?? refTo nav.cc*/
-    left: 65%;
+    left: 60%;
     z-index: 10;
 }
 

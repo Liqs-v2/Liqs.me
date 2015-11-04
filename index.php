@@ -61,6 +61,7 @@
     </div>
 
     <div id="introContent">
+        <div id="introContentDark"></div>
         <div id="introContentHead">
             <div class="container">
                 <div class="row">
