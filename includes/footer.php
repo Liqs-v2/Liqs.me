@@ -11,7 +11,8 @@
         <hr>
         <div id="footerCopy">
             <ul><i class="fa fa-copyright"></i> by Tobias Lindenbauer 2015</ul>
-            <ul id="footerCopyRight"><a href="http://www.twitch.tv/mrtrunsh/profile" target="_blank"><i class="fa fa-twitch fa-lg"></i></a></ul>
+            <ul id="footerCopyRight"><a href="mailto:tobiaslindenbauer98@gmail.com" target="_blank"><i class="fa fa-envelope fa-lg"></i></a></ul>
+            <ul><a href="http://www.twitch.tv/mrtrunsh/profile" target="_blank"><i class="fa fa-twitch fa-lg"></i></a></ul>
             <ul><a href="https://twitter.com/TobiLiQS" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></ul>
             <ul><a href="https://www.youtube.com/channel/UCCzn_VY9yGtUJzltDBi4j9Q" target="_blank"><i class="fa fa-youtube fa-lg"></i></a></ul>
         </div>
