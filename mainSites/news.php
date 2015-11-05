@@ -13,7 +13,7 @@
       <!-- Include my CSS-->
           <link href="../includes/footer.css" rel="stylesheet">
           <link href="../includes/navMainSites.css" rel="stylesheet">
-          <link href="mainCss/about.css" rel="stylesheet">
+          <link href="mainCss/gaming.css" rel="stylesheet">
               <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
               <!--Glyphicons-->
               <link rel="stylesheet" href="../font-awesome-4.3.0/css/font-awesome.min.css">
@@ -25,14 +25,23 @@
        <!-- Workaround for the directory structor discrepancies-->
         <?php $dirHelper="" ?>
         <?php $indexReloader="../" ?>
-        <!--Nav-->
-        <?php include("../includes/nav.php") ?>
-        <!--Content-->
+
+
+      <!--Content-->
         <div id="content">
+            <div id="mainSiteBG">
+                <img src="../Pictures/Pic1.jpg">
+                  <?php include("../includes/nav.php") ?>
+                <div id="jumboHeader">
+                    <h1>News</h1>
+                </div>
+            </div>
+            <div id="darkSperator"></div>
+            <div id="triangleDown"></div>
             <div class="container">
                 <div class="row">
                     <div class="content col-md-12">
-                 wwwww    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam v clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam v
+                 ggggg    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam v clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam v
                     </div>
                 </div>
             </div>
