@@ -44,13 +44,14 @@ html,body{height:93.5%;}
 .carouselHeader
 {
     font-size: 35pt;
+    -moz-animation-delay: 1s;
 }
 
 .carouselTeaser
 {
     font-size: 14pt;
+    -moz-animation-delay: 1.5s;
 }
-
 /*END OF WORKINGERZS */
 
 /*Intro Content*/

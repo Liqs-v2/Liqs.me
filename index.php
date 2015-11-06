@@ -19,6 +19,8 @@
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
     <!--Glyphicons-->
     <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+    <!--Animate.css-->
+    <link rel="stylesheet" href="animate.css">
 </head>
 
 <body>
@@ -43,28 +45,40 @@
             <div class="active item">
                 <img src="Pictures/Pic3.jpg" alt="LoL News">
                 <div class="carousel-caption">
-                   <div class="carouselText">
-                        <h1 class="carouselHeader">LoL News</h1>
-                        <p class="carouselTeaser">y name is Tobias and I’m currently 17 years old. Most of my childhood I spent in Thf</p>
-                   </div>
+                        <div class="carouselText">
+                            <h1 class="carouselHeader  animated fadeInUp">
+                                LoL News
+                            </h1>
+                            <p class="carouselTeaser  animated fadeInUp">
+                                y name is Tobias and I’m currently 17 years old. Most of my childhood I spent in Thf
+                            </p>
+                        </div>
                 </div>
             </div>
             <div class="item">
                 <img src="Pictures/Pic2.jpg" alt="WoW News">
                 <div class="carousel-caption">
-                    <div class="carouselText">
-                        <h1 class="carouselHeader">WWow News</h1>
-                        <p class="carouselTeaser">y name is Tobias and I’m currently 17 years old. Most of my childhood I spent in Thf</p>
-                   </div>
+                        <div class="carouselText">
+                            <h1 class="carouselHeader animated fadeInUp">
+                                wow News
+                            </h1>
+                            <p class="carouselTeaser animated fadeInUp">
+                               safdsgaslkglaöjgdsöofnla
+                            </p>
+                        </div>
                 </div>
             </div>
             <div class="item">
                 <img src="Pictures/Pic1.jpg" alt="CS News">
                 <div class="carousel-caption">
-                  <div class="carouselText">
-                        <h1 class="carouselHeader">CS News</h1>
-                        <p class="carouselTeaser">y name is Tobias and I’m currently 17 years old. Most of my childhood I spent in Thf</p>
-                   </div>
+                        <div class="carouselText">
+                            <h1 class="carouselHeader animated fadeInUp">
+                                CS News
+                            </h1>
+                            <p class="carouselTeaser animated fadeInUp">
+                                ello
+                            </p>
+                        </div>
                 </div>
             </div>
         </div>
