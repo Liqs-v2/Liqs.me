@@ -43,19 +43,28 @@
             <div class="active item">
                 <img src="Pictures/Pic3.jpg" alt="LoL News">
                 <div class="carousel-caption">
-                    <h3>LoL News</h3>
+                   <div class="carouselText">
+                        <h1 class="carouselHeader">LoL News</h1>
+                        <p class="carouselTeaser">y name is Tobias and I’m currently 17 years old. Most of my childhood I spent in Thf</p>
+                   </div>
                 </div>
             </div>
             <div class="item">
                 <img src="Pictures/Pic2.jpg" alt="WoW News">
                 <div class="carousel-caption">
-                    <h3>WoW News</h3>
+                    <div class="carouselText">
+                        <h1 class="carouselHeader">WWow News</h1>
+                        <p class="carouselTeaser">y name is Tobias and I’m currently 17 years old. Most of my childhood I spent in Thf</p>
+                   </div>
                 </div>
             </div>
             <div class="item">
                 <img src="Pictures/Pic1.jpg" alt="CS News">
                 <div class="carousel-caption">
-                    <h3>CS News</h3>
+                  <div class="carouselText">
+                        <h1 class="carouselHeader">CS News</h1>
+                        <p class="carouselTeaser">y name is Tobias and I’m currently 17 years old. Most of my childhood I spent in Thf</p>
+                   </div>
                 </div>
             </div>
         </div>
@@ -82,11 +91,11 @@
 
                     </div>
                     <div class="col-md-4">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        <p>My name is Tobias and I’m currently 17 years old. Most of my childhood I spent in Thalheim bei Wels, where I also attended kindergarten and elementary school. I never had much trouble with school, especially in elementary and grammar school. After finishing elementary school we moved to Breitenaich, where I spent the rest of my life so far. Currently I am attending HTL Wels’ IT department and am rather interested in Web Applications, -Design and –Development. I also have great interest in astronomy, space and physics, well anything science-y really.</p>
 
                     </div>
                     <div class="col-md-4">
-                        <p>Web Development and Design was a very recent discovery of mine, but I was instantly hooked. As I’m attending an IT school we usually do a lot of straight up programming, which I never really liked a whole lot, since I couldn’t get myself motivated out of a line of text stating that the program works. So Web Development and Design was a nice change of pace, as you can instantly see your work have an impact. I am still a beginner, but I am constantly trying to improve. You can follow me, my progress and my projects on this website.</p>
+                        <p>Web Development and Design was a very recent discovery of mine, but I was instantly hooked. As I’m attending an IT school we usually do a lot of straight up programming, which I never really liked a whole lot. I as a person like seeing instant results, or atleast being able to see the progress I make more clearly and a simply output telling me wether it works or not just isn't enough for me. So Web Development and Design was a nice change of pace, as you can instantly see your work have an impact. I am still a beginner, but I am constantly trying to improve. You can follow me, my progress and my projects on this website.</p>
 
                     </div>
                 </div>
@@ -96,7 +105,7 @@
         <div class="container">
             <div id="cta-btn-position">
                 <div class="row">
-                    <div class="col-md-4"><a href="mainSites/gaming.php" class="btn btn-info" role="button">I &#60;3 videogames!</a>
+                    <div class="col-md-4"><a href="mainSites/gaming.php" class="btn btn-info" role="button">I <i class="fa fa-heart-o"></i> videogames!</a>
                     </div>
                     <div class="col-md-4"> <a href="mainSites/about.php" class="btn btn-info" role="button">I wanna know more!</a>
                     </div>

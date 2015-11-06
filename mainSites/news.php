@@ -39,11 +39,8 @@
             <div id="darkSperator"></div>
             <div id="triangleDown"></div>
             <div class="container">
-                <div class="row">
-                    <div class="content col-md-12">
-                 ggggg    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam v clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam v
-                    </div>
-                </div>
+              <!-- Articles loaded from DB here -->
+                
             </div>
 
         </div>
