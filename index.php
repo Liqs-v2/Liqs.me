@@ -46,10 +46,10 @@
                 <img src="Pictures/Pic3.jpg" alt="LoL News">
                 <div class="carousel-caption">
                         <div class="carouselText">
-                            <h1 class="carouselHeader  animated fadeInUp">
+                            <h1 class="carouselHeader animated fadeInUp">
                                 LoL News
                             </h1>
-                            <p class="carouselTeaser  animated fadeInUp">
+                            <p class="carouselTeaser animated fadeInUp">
                                 y name is Tobias and I’m currently 17 years old. Most of my childhood I spent in Thf
                             </p>
                         </div>

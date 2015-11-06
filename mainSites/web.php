@@ -33,7 +33,7 @@
                 <img src="../Pictures/web.jpg">
                   <?php include("../includes/nav.php") ?>
                 <div id="jumboHeader">
-                    <h1>Web Stuff</h1>
+                    <h1>Web Design</h1>
                 </div>
             </div>
             <div id="darkSperator"></div>
