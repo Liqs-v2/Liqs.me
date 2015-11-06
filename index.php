@@ -9,7 +9,7 @@
     <title>Liqs | Home</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Include my CSS-->
     <link href="index.css" rel="stylesheet">
@@ -26,7 +26,7 @@
 <body>
 
     <!-- My HTML Code-->
-    <div id="bgCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+    <div id="bgCarousel" class="carousel slide" data-interval="15000" data-ride="carousel">
         <!-- Carousel indicators (small dots) -->
         <ol class="carousel-indicators">
             <li data-target="#bgCarousel" data-slide-to="0" class="active"></li>

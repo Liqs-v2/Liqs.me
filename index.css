@@ -39,13 +39,15 @@ html,body{height:93.5%;}
     margin-left:17.5%; /* 100-65 = 35/2 > 17.5 */
     height: 25%;
     width: 65%;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 .carouselHeader
 {
     font-size: 35pt;
     animation-delay: 1s;
-    color: #FF7D0A;
+    color: #d66400;
 }
 
 .carouselTeaser

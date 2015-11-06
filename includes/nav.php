@@ -7,4 +7,4 @@
    <li><a href="<?php echo $dirHelper; ?>news.php">News</a></li>
 </div>
 
-<div id="landingLogo"><a href="../index.php"><span></span></a></div>
+<div id="landingLogo"><a href="<?php echo $indexReloader; ?>index.php"><span></span></a></div>
