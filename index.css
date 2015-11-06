@@ -17,6 +17,7 @@ html,body{height:93.5%;}
     margin-left: 5px;
     margin-right: 5px;
     transition: transform 7500ms;
+    /* This is to be adapted after flyin Carousel-Text is implemented */
 }
 
 .carousel-indicators li:hover
