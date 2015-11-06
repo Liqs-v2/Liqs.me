@@ -6,7 +6,7 @@ html,body{height:93.5%;}
 /*Use this if you want full image, remove to cut bottom off*/
 #bgCarousel img
 {
-    height:100%;/* % scaling not working, find something better here maybe */
+    height:100%;
     width: 100%;
 }
 
@@ -16,8 +16,8 @@ html,body{height:93.5%;}
 {
     margin-left: 5px;
     margin-right: 5px;
-    transition: transform 7500ms;
-    /* This is to be adapted after flyin Carousel-Text is implemented */
+    transition: transform 500ms;
+    /* Animated size of indicators */
 }
 
 .carousel-indicators li:hover
@@ -35,22 +35,23 @@ html,body{height:93.5%;}
 
 .carouselText
 {
-    margin-bottom: 10%;
-    margin-right: 20%;
+    position: relative;
+    margin-left:17.5%; /* 100-65 = 35/2 > 17.5 */
     height: 25%;
-    width: 85%;
+    width: 65%;
 }
 
 .carouselHeader
 {
     font-size: 35pt;
-    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+    color: #FF7D0A;
 }
 
 .carouselTeaser
 {
     font-size: 14pt;
-    -moz-animation-delay: 1.5s;
+    animation-delay: 1.5s;
 }
 /*END OF WORKINGERZS */
 

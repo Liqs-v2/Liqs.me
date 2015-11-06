@@ -6,7 +6,6 @@
             <ul><a href="http://www.wowprogress.com/guild/eu/shattered-hand/W+U+T" target="_blank">Guild</a></ul>
             <ul><a href="http://www.lolking.net/summoner/euw/24062887" target="_blank">Lolking</a></ul>
             <ul><a href="http://steamcommunity.com/id/Liqserino" target="_blank">Steam Profile</a></ul>
-            <ul><a href="http://steamcommunity.com/id/Liqserino/tradeoffers/" target="_blank">Tradelink</a></ul>
         </div>
         <hr>
         <div id="footerCopy">
