@@ -17,3 +17,4 @@
   - try to read out header/teaser
   - Content
   - Add special letters in the main text(ß, ?, $, §, usw) to be able to split the content for paragraphs
+- Set up webserver on raspi to have portable DB
