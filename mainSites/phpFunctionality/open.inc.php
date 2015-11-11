@@ -3,7 +3,7 @@
 
 	 $server="localhost"; // MYSQL-Server
 	 $user="root"; // MYSQL-Nutzer
-	 $pass="passwort"; // MYSQL-Passwort
+	 $pass="§f4K_H8|>€r-M$|3_eS^F%"; // MYSQL-Passwort
 	 $dbase="liqsme_news"; // Standard-Datenbank
 
 	 $link=@mysql_connect($server,$user,$pass);

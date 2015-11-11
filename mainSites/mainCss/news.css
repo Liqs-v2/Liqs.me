@@ -79,3 +79,42 @@ html,body{height:93.5%%; width:100%;}
     right: 0;
     border-left: 20px solid transparent;
 }
+
+#subNav
+{
+    position: relative;
+    margin-top: 0%;
+}
+
+.subNavButton
+{
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-color: #d66400;
+    background-color: #FF7D0A;
+    color: white;
+    border-style: solid;
+    font-family: Helvetica;
+    font-size: 12pt;
+    font-weight: 600;
+    width: 10%; /*Width of all buttons the same*/
+}
+
+.subNavButton a
+{
+    background-color: #FF7D0A;
+    color: white;
+}
+
+.subNavButton:hover a
+{
+    background-color: white;
+    color: #FF7D0A;
+}
+
+.subNavButton:hover
+{
+    background-color: white;
+    color: #FF7D0A;
+}

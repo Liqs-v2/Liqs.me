@@ -1,0 +1,8 @@
+Add post > Popup > Alles eingeben dass für post relevant ist + secret keyword > prüfen (weiß nur ich) > posting zulasssen > nein > posting abbrechen und fenster schließeb
+n
++ reCAPTCHA
+
+Alle fenster auf sql inject prüfen
+
+root@localhost in phpmyadmin 	§f4K_H8|>€r-M$|3_eS^F%
+config.inc.php 			§f4K_H8|>€r-M$|3_eS^F%

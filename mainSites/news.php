@@ -13,7 +13,7 @@
       <!-- Include my CSS-->
           <link href="../includes/footer.css" rel="stylesheet">
           <link href="../includes/navMainSites.css" rel="stylesheet">
-          <link href="mainCss/gaming.css" rel="stylesheet">
+          <link href="mainCss/news.css" rel="stylesheet">
               <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
               <!--Glyphicons-->
               <link rel="stylesheet" href="../font-awesome-4.3.0/css/font-awesome.min.css">
@@ -40,9 +40,11 @@
             <div id="triangleDown"></div>
             <div class="container">
               <!-- Articles loaded from DB here -->
-                
+                <div id="subNav">
+                    <button class="subNavButton" type="button" value="login" onclick="window.open('/Liqs.me/mainSites/phpFunctionality/addPost.php', '_blank', 'width=777', 'height=500')">Add Post</button>
+                    <button class="subNavButton" type="button" value="setMasterPW" onclick="window.open('/Liqs.me/mainSites/phpFunctionality/setMasterPW.php', '_blank', 'width=777', 'height=500')">Set Master</button>
+                </div>
             </div>
-
         </div>
 
     	<!--footer-->
