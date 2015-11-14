@@ -3,6 +3,6 @@ n
 + reCAPTCHA
 
 Alle fenster auf sql inject prüfen
-
+				roootPW
 root@localhost in phpmyadmin 	§f4K_H8|>€r-M$|3_eS^F%
 config.inc.php 			§f4K_H8|>€r-M$|3_eS^F%

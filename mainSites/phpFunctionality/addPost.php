@@ -8,22 +8,24 @@
 
 	<h1>Liqs.me - Add Post</h1>
 	
-	<form action="addpost.php" method="post">
+	<form action="processing.php" method="post">
 	
 		Title: <br>
-		<input type="text" name="title"><br>
-		<br>
+		<input type="text" name="title">
+        <br>
 		Teaser: <br>
 		<input type="text" name="teaser">
         <br>
         Content: <br>
-		<input type="text" name="content"><br>
-		<br>
+		<input type="text" name="content">
+        <br>
 		Author: <br>
 		<input type="text" name="author">
         <br>
 		IMG-Path: <br>
 		<input type="text" name="img_path">
+        <br>
+        <input type="submit" value="send">
 	</form>
 </body>
 

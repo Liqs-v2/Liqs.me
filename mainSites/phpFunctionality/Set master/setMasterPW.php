@@ -11,7 +11,7 @@
 	<form action="processing.php" method="post">
 	
 		Masterpassword: <br>
-		<input type="password" name="password"><br>
+		<input type="password" name="password" value=""><br>
 	</form>
 </body>
 

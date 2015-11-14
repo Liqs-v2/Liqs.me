@@ -42,7 +42,6 @@
               <!-- Articles loaded from DB here -->
                 <div id="subNav">
                     <button class="subNavButton" type="button" value="login" onclick="window.open('/Liqs.me/mainSites/phpFunctionality/addPost.php', '_blank', 'width=777', 'height=500')">Add Post</button>
-                    <button class="subNavButton" type="button" value="setMasterPW" onclick="window.open('/Liqs.me/mainSites/phpFunctionality/setMasterPW.php', '_blank', 'width=777', 'height=500')">Set Master</button>
                 </div>
             </div>
         </div>
