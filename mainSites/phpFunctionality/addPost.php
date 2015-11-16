@@ -25,6 +25,10 @@
 		IMG-Path: <br>
 		<input type="text" name="img_path">
         <br>
+        Set Post to Frontpage? <br>
+        <input type="radio" name="setFrontpage" value="yes"> Yes
+        <input type="radio" name="setFrontpage" value="no"> No
+        <br>
         <input type="submit" value="send">
 	</form>
 </body>
