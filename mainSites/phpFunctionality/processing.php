@@ -19,6 +19,8 @@
         $input[6] = date("Y-m-d H:i:s");
         
         //Create PostID-Generator
+        //category (radioutton) + random number (generate from year month day)
+        
         
         //Establish connection to database
 		$table="post";
