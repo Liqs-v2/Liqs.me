@@ -13,7 +13,12 @@
         if($input[5] == "yes")
         {
             $input[5] = 1;
-        }  
+        }
+        //Get time in the correct timezone for the MySQL Datetime format
+        date_default_timezone_set("Europe/Vienna");
+        $input[6] = date("Y-m-d H:i:s");
+        
+        //Create PostID-Generator
         
         //Establish connection to database
 		$table="post";
@@ -29,7 +34,7 @@
             exit();
         }
         
-        $sql="INSERT INTO $table(Title, Teaser, Content, Author, Img_Path, setFrontpage) VALUES('".$input[0]."','".$input[1]."','".$input[2]."','".$input[3]."','".$input[4]."','".$input[5]."')";
+        $sql="INSERT INTO $table(Title, Teaser, Content, Author, Img_Path, setFrontpage, PostDatetime) VALUES('".$input[0]."','".$input[1]."','".$input[2]."','".$input[3]."','".$input[4]."','".$input[5]."','".$input[6]."')";
         
         if($stmt = mysqli_prepare($link, $sql))
         {
