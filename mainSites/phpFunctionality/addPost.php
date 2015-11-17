@@ -25,6 +25,7 @@
 		IMG-Path: <br>
 		<input type="text" name="img_path">
         <br>
+        <!-- fix this so it sends 1 or 0 to dB-->
         Set Post to Frontpage? <br>
         <input type="radio" name="setFrontpage" value="yes"> Yes
         <input type="radio" name="setFrontpage" value="no"> No
