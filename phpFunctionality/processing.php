@@ -17,11 +17,7 @@
         //Get time in the correct timezone for the MySQL Datetime format
         date_default_timezone_set("Europe/Vienna");
         $input[6] = date("Y-m-d H:i:s");
-        
-        //Create PostID-Generator
-        //category (radioutton) + random number (generate from year month day)
-        
-        
+
         //Establish connection to database
 		$table="post";
        
@@ -50,6 +46,6 @@
 	else
 	{
 		echo "Fill that formular!";
-	}
+    }
 
 ?> 
