@@ -98,7 +98,7 @@ html,body{height:93.5%%; width:100%;}
     font-family: Helvetica;
     font-size: 12pt;
     font-weight: 600;
-    width: 10%; /*Width of all buttons the same*/
+    width: 12.5%; /*Width of all buttons the same*/
 }
 
 .subNavButton a
