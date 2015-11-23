@@ -5,7 +5,7 @@
 
     //Write out to database
     //MySQLi bind_param to avoid sql inject
-    $link = mysqli_connect("localhost", "root", "§f4K_H8|>€r-M$|3_eS^F%", "liqs_news");
+    $link = mysqli_connect("localhost", "root", "§f4k_H8|>€r-M$|3_eS^F%", "liqs_news");
 
     //Check Connection
     if(mysqli_connect_errno())
@@ -19,7 +19,7 @@
     {
         while($row = mysqli_fetch_row($resultPrint))
         {
-            print($row[0]);      
+            echo "$row[0]<br>";    
         }
     }
     
