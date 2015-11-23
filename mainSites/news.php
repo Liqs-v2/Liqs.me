@@ -41,7 +41,8 @@
             <div class="container">
               <!-- Articles loaded from DB here -->
                 <div id="subNav">
-                    <button class="subNavButton" type="button" value="addPost" onclick="window.open('/Liqs.me/phpFunctionality/manageEntries.php', 'width=800', 'height=500')">Manage Posts</button>
+                    <button class="subNavButton" type="button" value="addPost" onclick="window.open('/Liqs.me/phpFunctionality/addPost/addPost.php', 'width=800', 'height=500')">Add Post</button>
+                     <button class="subNavButton" type="button" value="managePost" onclick="window.open('/Liqs.me/phpFunctionality/manageEntries/manageEntries.php', 'width=800', 'height=500')">Manage Posts</button>
                 </div>
             </div>
         </div>
