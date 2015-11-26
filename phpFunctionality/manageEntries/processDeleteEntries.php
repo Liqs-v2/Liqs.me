@@ -19,11 +19,9 @@
     {
         $buf = $_POST['markedForDeath'];
         $numberOfElements = count($buf);
-        echo "$numberOfElements<br>";
         
         for($i=0; $i < $numberOfElements ; $i++)
         {
-            printf("%s\n", $buf[$i]);
             //Use PHPmyadmin to generate the PHP-SQL code x)
             $sqlDel = "DELETE FROM $table WHERE `Title`=\"$buf[$i]\"";
             if($stmt = mysqli_prepare($link,$sqlDel))
@@ -33,6 +31,6 @@
             }
         }
         mysqli_close($link);
-	//	echo "<script language='javascript'> window.close();</script>";
+        echo "<script language='javascript'> window.close();</script>";
     }
 ?>

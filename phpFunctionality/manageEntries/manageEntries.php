@@ -26,10 +26,11 @@
         //Row is a SINGLE ROW -> 1 data-entity ------ row[0] is the SPAN of THAT ENTITY
         while($row = mysqli_fetch_row($resultPrint))
         {
+            //potentially use href='changeEntry.php?name=editEntry' to send value via get
             echo "<tr>
                     <td>$row[0]</td>
                     <td><input type='checkbox' name='markedForDeath[]' value='$row[0]' class='manageEntryForm'></td>
-                    <td>placeholder</td>
+                    <td><a href='changeEntry.php' name='editEntry'>Edit Entry</a></td>
                  </tr>";
         }
         echo "</table>";
