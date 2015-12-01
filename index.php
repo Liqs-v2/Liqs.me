@@ -39,7 +39,9 @@
             <!-- nav -->
             <?php $indexReloader="" ?>
             <?php $dirHelper="mainSites/" ?>
-            <?php include("includes/nav.php") ?>
+            <?php   include("includes/nav.php");
+                    include("phpFunctionality/loadFrontpageEntries.php");?>
+      
 
             <!--Items of the Slideshow-->
             <div class="active item">
@@ -47,10 +49,17 @@
                 <div class="carousel-caption">
                         <div class="carouselText">
                             <h1 class="carouselHeader animated fadeInUp">
-                                LoL News
+                                <?php
+                                   // if($postTitle[0])
+                                        echo "$postTitle[0]";
+                                    //else
+                                      //  echo "Error fetching ";
+                                ?>
                             </h1>
                             <p class="carouselTeaser animated fadeInUp">
-                                y name is Tobias and I’m currently 17 years old. Most of my childhood I spent in Thf
+                                <?php
+                                   echo "$postTeaser[0]";
+                                ?>
                             </p>
                         </div>
                 </div>
@@ -60,10 +69,14 @@
                 <div class="carousel-caption">
                         <div class="carouselText">
                             <h1 class="carouselHeader animated fadeInUp">
-                                wow News
+                                 <?php
+                                   echo "$postTitle[1]";
+                                ?>
                             </h1>
                             <p class="carouselTeaser animated fadeInUp">
-                               safdsgaslkglaöjgdsöofnla
+                               <?php
+                                   echo "$postTeaser[1]";
+                                ?>
                             </p>
                         </div>
                 </div>
@@ -73,10 +86,14 @@
                 <div class="carousel-caption">
                         <div class="carouselText">
                             <h1 class="carouselHeader animated fadeInUp">
-                                CS News
+                                 <?php
+                                   echo "$postTitle[2]";
+                                ?>
                             </h1>
                             <p class="carouselTeaser animated fadeInUp">
-                                ello
+                                <?php
+                                   echo "$postTeaser[2]";
+                                ?>
                             </p>
                         </div>
                 </div>

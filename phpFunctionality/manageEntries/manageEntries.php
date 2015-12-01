@@ -37,6 +37,6 @@
         echo "<input type='submit' value='Delete'>
              </form>";
     }
-
+    mysqli_free_result($resultPrint);
     mysqli_close($link);
 ?>

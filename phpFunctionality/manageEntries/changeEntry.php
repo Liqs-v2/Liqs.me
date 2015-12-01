@@ -1,7 +1,7 @@
 <?php
 
 //Establish connection to database
-     $table="post";
+    $table="post";
 
     //Write out to database
     //MySQLi bind_param to avoid sql inject
@@ -15,7 +15,7 @@
     }
 
     //<<<<<<<<<<< FUNCTIONALITY >>>>>>>>>>>>>>>
-    if(isset($_POST['editEntry']))
+    if(isset($_POST['editEntry'])) //THIS IF ISNT WORKING
     {
         $postToEdit = $_POST['editEntry'];
         echo "$postToEdit";                  //Can you sql inject this with GET?
@@ -72,7 +72,7 @@
         {
             echo "There is no such entry in the database!";
         }
-            
+        mysqli_free_result($result);
         mysqli_close($link);
         //echo "<script language='javascript'> window.close();</script>";
     }

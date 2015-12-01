@@ -10,7 +10,7 @@
   - Isotope?
   - Titlepic => mosaic of pics of ~25 stories or sm
 - dynamic change of navbar
+- Do proper Error page (design); load page anyway button
 
 - PHP
-  - try to read out header/teaser
   - Add special letters in the main text(ß, ?, $, §, usw) to be able to split the content for paragraphs
