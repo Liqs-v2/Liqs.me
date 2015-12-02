@@ -30,7 +30,7 @@
             echo "<tr>
                     <td>$row[0]</td>
                     <td><input type='checkbox' name='markedForDeath[]' value='$row[0]' class='manageEntryForm'></td>
-                    <td><a href='changeEntry.php' name='editEntry'>Edit Entry</a></td>
+                    <td><a href='changeEntry.php?postToEdit=$row[0]'>Edit Entry</a></td>
                  </tr>";
         }
         echo "</table>";

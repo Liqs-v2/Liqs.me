@@ -30,7 +30,7 @@
       <!--Content-->
         <div id="content">
             <div id="mainSiteBG">
-                <img src="../Pictures/web.jpg">
+                <img src="../Pictures/3.jpg">
                   <?php include("../includes/nav.php") ?>
                 <div id="jumboHeader">
                     <h1>Web Design</h1>
