@@ -31,7 +31,7 @@
                 $postFront = $row[5];
             }
             
-            echo " <form method='post'>
+            echo " <form method='post' action='pushChanges.php?oldTitle=$postTitle'>
                         Title: <br>
                         <input type='text' name='title' value='$postTitle'>
                         <br>
@@ -77,37 +77,7 @@
         echo "No link was pressed? WTF HOW";
     }
         
-
-        //this is to be changed
-        //Add here
-        if (isset($_POST['title']) && ($_POST['teaser']) && ($_POST['content']) && ($_POST['author']) && ($_POST['img_path']) && ($_POST['setFrontpage']))
-        {
-            //Changed to more convenient naming for iterating
-            $input[0] = ($_POST['title']);
-            $input[1] = ($_POST['teaser']);
-            $input[2] = ($_POST['content']);
-            $input[3] = ($_POST['author']);
-            $input[4] = ($_POST['img_path']);
-            //Change to appropriate integer value
-            $input[5] = ($_POST['setFrontpage']);
-            if($input[5] == "yes")
-            {
-                $input[5] = 1;
-            }
-
-            $sql="INSERT INTO $table(Title, Teaser, Content, Author, Img_Path, setFrontpage)
-            VALUES('".$input[0]."','".$input[1]."','".$input[2]."','".$input[3]."','".$input[4]."','".$input[5]."')";//change this to alter or sm to edit rather than add
-
-            if($stmt = mysqli_prepare($link, $sql))
-            {
-                mysqli_stmt_bind_param($stmt, "sssssi", $input[0],$input[1],$input[2],$input[3],$input[4],$input[5]);
-                mysqli_stmt_execute($stmt);
-                mysqli_stmt_close($stmt);
-            }
-
             mysqli_free_result($result);
             mysqli_close($link);
-            //echo "<script language='javascript'> window.close();</script>";
-        }
-    
+            //echo "<script language='javascript'> window.close();</script>"
 ?>

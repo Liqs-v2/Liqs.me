@@ -24,7 +24,6 @@
 </head>
 
 <body>
-    <?php include("phpFunctionality/loadFrontpageEntries.php"); ?>
     <!-- My HTML Code-->
     <div id="bgCarousel" class="carousel slide" data-interval="15000" data-ride="carousel">
         <!-- Carousel indicators (small dots) -->
