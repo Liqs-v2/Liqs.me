@@ -25,7 +25,7 @@
 
 <body>
     <!-- My HTML Code-->
-    <div id="bgCarousel" class="carousel slide" data-interval="15000" data-ride="carousel">
+    <div id="bgCarousel" class="carousel slide carousel-fade" data-interval="15000" data-ride="carousel">
         <!-- Carousel indicators (small dots) -->
         <ol class="carousel-indicators">
             <li data-target="#bgCarousel" data-slide-to="0" class="active"></li>

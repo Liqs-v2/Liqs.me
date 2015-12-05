@@ -49,6 +49,18 @@ html,body{height:93.5%%; width:100%;}
     position: relative;
 }
 
+#lightSeperator
+{
+    width: 100%;
+    background-color: #FF7D0A;
+    color: white;
+    padding-top: 1.5%;
+    padding-bottom: 3.5%;
+    /*Casting Shadows*/
+    box-shadow: 0px 7.5px 10px 0 #9b9c9a;
+}
+
+/*
 #triangleDown
 {
     background-color: #FF7D0A;
@@ -79,6 +91,7 @@ html,body{height:93.5%%; width:100%;}
     right: 0;
     border-left: 20px solid transparent;
 }
+*/
 
 #subNav
 {

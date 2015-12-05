@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div id="darkSperator"></div>
-            <div id="triangleDown"></div>
+            <div id="lightSeperator"></div>
             <div class="container">
                 <div class="row">
                     <div class="content col-md-12">

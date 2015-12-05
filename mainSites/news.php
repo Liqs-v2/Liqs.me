@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div id="darkSperator"></div>
-            <div id="triangleDown"></div>
+            <div id="lightSeperator"></div>
             <div class="container">
               <!-- Articles loaded from DB here -->
                 <div id="subNav">

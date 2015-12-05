@@ -25,7 +25,7 @@ html,body{height:93.5%%; width:100%;}
 
 .container
 {
-    margin-top: 3.5%;
+    margin-top: 2.5%;
 }
 
 #jumboHeader h1
@@ -49,33 +49,13 @@ html,body{height:93.5%%; width:100%;}
     position: relative;
 }
 
-#triangleDown
+#lightSeperator
 {
+    width: 100%;
     background-color: #FF7D0A;
-    min-height: 75px;
-    padding: 20px;
-    position: relative;
-}
-
-#triangleDown:before,
-#triangleDown:after
-{
-    content: ' ';
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 50%;
-    border-bottom: 20px solid white;
-}
-
-#triangleDown:before
-{
-    left: 0;
-    border-right: 20px solid transparent;
-}
-
-#triangleDown:after
-{
-    right: 0;
-    border-left: 20px solid transparent;
+    color: white;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    /*Casting Shadows*/
+    box-shadow: 0px 7.5px 10px 0 #9b9c9a;
 }
