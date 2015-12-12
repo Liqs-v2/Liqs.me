@@ -1,10 +1,4 @@
 <html>
-
-<head>
-    <title>Add Post-Form</title>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-</head>
-
 <body>
 
 	<h1>Liqs.me - Add Post</h1>

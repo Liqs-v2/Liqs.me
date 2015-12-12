@@ -32,7 +32,7 @@
             }
             else
             {   //redirects to page that handles / displays error
-                 header("Location:errHandle.html");
+                 header("Location:errHandle.php");
             }
         }
         mysqli_free_result($result);

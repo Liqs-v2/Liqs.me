@@ -15,12 +15,19 @@
     <link href="index.css" rel="stylesheet">
     <link href="includes/navMainSites.css" rel="stylesheet">
     <link href="includes/footer.css" rel="stylesheet">
+    
     <!-- Custom Font-->
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    
     <!--Glyphicons-->
     <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+    
     <!--Animate.css-->
     <link rel="stylesheet" href="animate.css">
+    
+    <!--Favicon-->
+    <?php   $dirHelper ="";
+            include("favIco/setup.php")?>
 </head>
 
 <body>

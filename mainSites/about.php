@@ -11,13 +11,19 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 
       <!-- Include my CSS-->
-          <link href="../includes/footer.css" rel="stylesheet">
-          <link href="../includes/navMainSites.css" rel="stylesheet">
-          <link href="mainCss/about.css" rel="stylesheet">
-            <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link href="../includes/footer.css" rel="stylesheet">
+    <link href="../includes/navMainSites.css" rel="stylesheet">
+    <link href="mainCss/about.css" rel="stylesheet">
       
-              <!--Glyphicons-->
-              <link rel="stylesheet" href="../font-awesome-4.3.0/css/font-awesome.min.css">
+    <!--Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+      
+    <!--Glyphicons-->
+    <link rel="stylesheet" href="../font-awesome-4.3.0/css/font-awesome.min.css">
+      
+    <!--Favicon-->
+    <?php   $dirHelper ="../";
+            include("../favIco/setup.php")?>
   </head>
 
   <body>
