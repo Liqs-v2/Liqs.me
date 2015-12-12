@@ -34,7 +34,8 @@ html,body{height:93.5%%; width:100%;}
     font-size: 100pt;
     z-index: 10;
     color: white;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+           /*offset offset blur color */
+    text-shadow: 2px 2px 4px #000000;
     position: absolute;
     top: 36%;
     left: 50%;
