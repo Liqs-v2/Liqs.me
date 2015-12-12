@@ -1,14 +1,17 @@
-html,body{height:93.5%;}
+html,body{height:100%;} /* This value is used to set the height of the carousel */
 .carousel,.item,.active{height:100%;}
 .carousel-inner{height:100%;}
 
 
-/*Use this if you want full image, remove to cut bottom off*/
-#bgCarousel img
+/*Use this if you want full image, remove to cut bottom off, when Height of html/body (above) is <100*/
+#bgCarousel
 {
     height:100%;
     width: 100%;
 }
+
+
+/*Scrollbar*/
 
 
 /*Carousel*/
@@ -37,7 +40,7 @@ html,body{height:93.5%;}
 .carouselText
 {
     position: relative;
-    margin-left:17.5%; /* 100-65 = 35/2 > 17.5 */
+    margin-left:17.5%; /* 100-65(div width) = 35/2 > 17.5 */
     height: 25%;
     width: 65%;
     margin-bottom: 5%;
@@ -46,13 +49,15 @@ html,body{height:93.5%;}
 
 .carouselHeader
 {
-    font-size: 35pt;
+    font-size: 36pt;
+    line-height: 40pt;
     animation-delay: 1s;
 }
 
 .carouselTeaser
 {
     font-size: 14pt;
+    line-height: 18pt;
     animation-delay: 1.5s;
 }
 /*END OF WORKINGERZS */
@@ -71,7 +76,7 @@ html,body{height:93.5%;}
 /* Text sizes
     Big Head 42pt
     Small Head 24pt
-    Text 12pt  lh: 16pt*/
+    Text 14pt  lh: 20pt*/
 
 #introContentDark
 {
@@ -88,7 +93,7 @@ html,body{height:93.5%;}
     color: white;
     font-size: 42pt;
     font-family: "Droid Sans";
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     /*Casting Shadows*/
@@ -97,6 +102,7 @@ html,body{height:93.5%;}
 
 #intoContentText
 {
+    font-family: Helvetica;
     font-size: 12pt;
     line-height: 18pt;
 }

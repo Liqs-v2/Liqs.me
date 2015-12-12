@@ -25,7 +25,7 @@
 
 <body>
     <!-- My HTML Code-->
-    <div id="bgCarousel" class="carousel slide carousel-fade" data-interval="15000" data-ride="carousel">
+    <div id="bgCarousel" class="carousel slide carousel-fade" data-interval="15000" data-ride="carousel" data-pause="false">
         <!-- Carousel indicators (small dots) -->
         <ol class="carousel-indicators">
             <li data-target="#bgCarousel" data-slide-to="0" class="active"></li>
@@ -39,6 +39,7 @@
             <?php $indexReloader="" ?>
             <?php $dirHelper="mainSites/" ?>
             <?php   include("includes/nav.php");
+                    //Error Handling in here aswell
                     include("phpFunctionality/loadFrontpageEntries.php");?>
       
 

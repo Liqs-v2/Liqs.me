@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Liqs | About</title>
+    <title>About</title>
 
     <!-- Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -14,7 +14,8 @@
           <link href="../includes/footer.css" rel="stylesheet">
           <link href="../includes/navMainSites.css" rel="stylesheet">
           <link href="mainCss/about.css" rel="stylesheet">
-              <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+            <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+      
               <!--Glyphicons-->
               <link rel="stylesheet" href="../font-awesome-4.3.0/css/font-awesome.min.css">
   </head>
@@ -33,6 +34,7 @@
                 <img src="../Pictures/about.jpg">
                   <?php include("../includes/nav.php") ?>
                 <div id="jumboHeader">
+                    <h2>find out</h2>
                     <h1>About</h1>
                 </div>
             </div>
@@ -41,12 +43,10 @@
             <div class="container">
                 <div class="row">
                     <div class="content col-md-12">
-                 ggggg    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam v clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam v
+                        
                     </div>
                 </div>
             </div>
-
-        </div>
 
     	<!--footer-->
     	<?php $dirHelper="../footerLinks/" ?>
