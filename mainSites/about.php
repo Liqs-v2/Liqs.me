@@ -17,6 +17,7 @@
       
     <!--Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
       
     <!--Glyphicons-->
     <link rel="stylesheet" href="../font-awesome-4.3.0/css/font-awesome.min.css">
@@ -35,24 +36,28 @@
 
 
       <!--Content-->
-        <div id="content">
-            <div id="mainSiteBG">
-                <img src="../Pictures/about.jpg">
-                  <?php include("../includes/nav.php") ?>
-                <div id="jumboHeader">
-                    <h2>find out</h2>
-                    <h1>About</h1>
-                </div>
+     <div id="mainSiteBG">
+     <img src="../Pictures/about.jpg">
+        <?php include("../includes/nav.php") ?>
+            <div id="jumboHeader">
+                <h1>About</h1>
             </div>
-            <div id="darkSperator"></div>
-            <div id="lightSeperator"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="content col-md-12">
-                        
+        </div>
+        <div id="darkSperator"></div>
+        <div id="lightSeperator"></div>
+        <div class="container">
+            <div class="row">
+                <div class="content col-md-12">
+                    <div id="content">
+                        <div id="contentTLDR">
+                            <h1>A few fun facts</h1>
+                            I'm a chocoholic, I enjoy jogging, I have an easy time learning new languages, My favourite food is pizza, I love skiing, My favourite season is Spring, I play videogames since I was a small kid and I'm pretty good at doing that.
+                        </div>
+                        <hr>
                     </div>
                 </div>
             </div>
+        </div>
 
     	<!--footer-->
     	<?php $dirHelper="../footerLinks/" ?>
