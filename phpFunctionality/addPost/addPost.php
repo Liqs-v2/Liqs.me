@@ -25,6 +25,8 @@
             <input type="radio" name="setFrontpage" value="yes"> Yes
             <input type="radio" name="setFrontpage" value="no"> No
             <br>
+            <input type="password" name="masterPass" autocomplete="off">
+            <br>
             <input type="submit" value="send">
         </form>
 </body>

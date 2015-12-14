@@ -64,8 +64,10 @@
                         
                         //Rest of Form
                         echo "<br>
+                        <input type='password' name='masterPass' autocomplete='off'>
+                        <br>
                         <input type='submit' value='Update'>
-        </form>";
+                    </form>";
         }
         else
         {

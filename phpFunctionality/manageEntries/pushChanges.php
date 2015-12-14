@@ -14,37 +14,61 @@
         printf("Connect failed: %s\n", mysqli_connect_error());
         exit();
     }
-
-        //this is to be changed
-        //Add here
-        if (isset($_POST['title']) && ($_POST['teaser']) && ($_POST['content']) && ($_POST['author']) && ($_POST['img_path']) && ($_POST['setFrontpage']) && ($_GET['oldTitle']))
+    
+    //Check correctness of masterpass
+    if(isset($_POST['masterPass']))
+    {
+        $sql = "SELECT * FROM `masterpass`";
+        $result = mysqli_query($link, $sql);
+        $masterPass = mysqli_fetch_row($result);
+        $enteredP = ($_POST['masterPass']);
+        
+        if(strcmp($masterPass[0], $enteredP) == 0)
         {
-            //Changed to more convenient naming for iterating
-            $input[0] = ($_POST['title']);
-            $input[1] = ($_POST['teaser']);
-            $input[2] = ($_POST['content']);
-            $input[3] = ($_POST['author']);
-            $input[4] = ($_POST['img_path']);
-            //Change to appropriate integer value
-            $input[5] = ($_POST['setFrontpage']);
-            if($input[5] == "yes")
+        
+            //this is to be changed
+            //Add here
+            if (isset($_POST['title']) && ($_POST['teaser']) && ($_POST['content']) && ($_POST['author']) && ($_POST['img_path']) && ($_POST['setFrontpage']) && ($_GET['oldTitle']))
             {
-                $input[5] = 1;
-            }
-     
-            //Use ? in update sqls
-            $oldT = $_GET['oldTitle'];
-            $sql=   "UPDATE $table 
-                    SET `Title`=?, `Teaser`=?, `Content`=?, `Author`=?, `Img_Path`=?, `setFrontpage`=?
-                    WHERE `Title`=\"$oldT\"";
-            
-            //change this to alter or sm to edit rather than add
+                //Changed to more convenient naming for iterating
+                $input[0] = ($_POST['title']);
+                $input[1] = ($_POST['teaser']);
+                $input[2] = ($_POST['content']);
+                $input[3] = ($_POST['author']);
+                $input[4] = ($_POST['img_path']);
+                //Change to appropriate integer value
+                $input[5] = ($_POST['setFrontpage']);
+                if($input[5] == "yes")
+                {
+                    $input[5] = 1;
+                }
 
-            if($stmt = mysqli_prepare($link, $sql))
+                //Use ? in update sqls
+                $oldT = $_GET['oldTitle'];
+                $sql=   "UPDATE $table 
+                        SET `Title`=?, `Teaser`=?, `Content`=?, `Author`=?, `Img_Path`=?, `setFrontpage`=?
+                        WHERE `Title`=\"$oldT\"";
+
+                //change this to alter or sm to edit rather than add
+
+                if($stmt = mysqli_prepare($link, $sql))
+                {
+                    mysqli_stmt_bind_param($stmt, "sssssi", $input[0],$input[1],$input[2],$input[3],$input[4],$input[5]);
+                    mysqli_stmt_execute($stmt);
+                    mysqli_stmt_close($stmt);
+                }
+                mysqli_close($link);
+                echo "<script language='javascript'> window.close();</script>";
+            }
+            else
             {
-                mysqli_stmt_bind_param($stmt, "sssssi", $input[0],$input[1],$input[2],$input[3],$input[4],$input[5]);
-                mysqli_stmt_execute($stmt);
-                mysqli_stmt_close($stmt);
+                echo "A field cannot be empty.";
             }
         }
+        else
+        {
+            echo "Wrong password";
+        }
+        mysqli_free_result($result);
+    }
 ?>
