@@ -14,7 +14,6 @@ html,body{height:93.5%%; width:100%;}
 {
     width:100%;
     z-index: 10;
-    clip:
 }
 
 #jumboHeader h1
@@ -69,7 +68,23 @@ html,body{height:93.5%%; width:100%;}
     background: #e0e0e0;
 }
 
-#contentTLDR
+#content h1
+{
+    font-family: "Droid Sans", cursive;
+    font-size: 21pt;
+    color: #212121;
+    padding-bottom: 1.5%;
+}
+
+#content h2
+{
+    font-family: "Droid Sans", cursive;
+    font-size: 16pt;
+    color: #212121;
+    padding-bottom: 1.5%;
+}
+
+#contentFacts
 {
     width: 65%;
     margin-left: 17.5%;
@@ -77,10 +92,40 @@ html,body{height:93.5%%; width:100%;}
     text-align: center;
 }
 
-#content h1
+#contentEd
+{ 
+    width: 65%;
+    margin-left: 17.5%;
+    margin-bottom: 7.5%;
+    margin-top: 7.5%;
+    text-align: center;
+}
+
+/* Float > side of the image on text */
+.edImgL
 {
-    font-family: "Droid Sans", cursive;
-    font-size: 21pt;
-    color: #212121;
-    padding-bottom: 1.5%;
+    border-radius: 50%;
+    float: left;
+    padding-right: 2.5%;
+}
+
+.edImgR
+{
+    border-radius: 50%;
+    float: right;
+    padding-left: 2.5%;
+}
+
+/*text always aligned left*/
+.alignEdLeft
+{
+    text-align: left;
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
+}
+
+/*Align every 2nd head to right over image*/
+.rightHead
+{
+    text-align: right;
 }
