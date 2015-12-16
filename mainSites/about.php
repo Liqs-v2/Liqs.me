@@ -62,7 +62,7 @@
                             <div class="alignEdLeft">
                                 <h2>Elementary school Thalheim</h2>
                                 <a  href="http://www.vsthalheim.at" target="_blank">
-                                    <img class="edImgL" src="../Pictures/vsthalheim.jpg" alt="Elementary school Thalheim" width="225" height="100">
+                                    <img class="edImgL" src="../Pictures/vsthalheim.jpg" alt="Elementary school Thalheim" title="&copy; Marktgemeinde Thalheim" width="225" height="100">
                                 </a>
                                 From the age of six to ten I attended the elementary school in Thalheim bei Wels, where I lived at the time. During that time I already had decent interest into technology and everything around that, although my usage of computers and such was limited to videogames and the very basics.
                             </div>
@@ -70,7 +70,7 @@
                             <div class="alignEdLeft">
                                 <h2 class="rightHead">Grammar school Dachsberg</h2>
                                 <a  href="http://www.dachsberg.at" target="_blank">
-                                    <img class="edImgR" src="../Pictures/gdachsberg.jpg" alt="Elementary school Thalheim" width="225" height="100">
+                                    <img class="edImgR" src="../Pictures/gdachsberg.jpg" alt="Grammar school Dachsberg" title="&copy; Di&ouml;zese Linz" width="225" height="100">
                                 </a>
                                 I attended the grammar school in Dachsberg from 10 to 14. Between elementary and grammar school we also moved from Thalheim to Breitenaich. In those four years I also had my very first experiences with coding. 
                             </div>
@@ -78,9 +78,28 @@
                             <div class="alignEdLeft">
                                 <h2>HTL Wels</h2>
                                 <a  href="http://www.htl-wels.at" target="_blank">
-                                    <img class="edImgL" src="../Pictures/htlwels.jpg" alt="Elementary school Thalheim" width="225" height="100">
+                                    <img class="edImgL" src="../Pictures/htlwels.jpg" alt="HTL Wels" title="&copy; Nachrichten.at" width="225" height="100">
                                 </a>
                                 Currently I am attenting HTL Wels' IT department. A HTL is a specific form of school, which combines getting taught skills usuful in a particular branch with basic higher education. Over the course of the four years, which I have been attending now, I managed to aquire a broad spectrum of experiences. I also got in touch with creating websites, which has been by far the most fun thing so far.
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="contentEx">
+                            <h1>Experiences</h1>
+                            <div class="alignEdLeft">
+                                <h2 class="rightHead">Zaunergroup Anlagentechnik</h2>
+                                  <a  href="http://www.zaunergroup.com/" target="_blank">
+                                    <img class="edImgR" src="../Pictures/zauner.jpg" title="&copy; meinbezirk.at" alt="Zauner Anlagentechnik Wallern" width="225" height="100">
+                                </a>
+                                nes getting taught skills usuful in a particular branch with basic higher education. Over the course of the four years, which I have been attending now, I managed to aquire a broad spectrum of experiences. I also got in touch with creating websites, which has been by far the most fun thing so far.
+                            </div>
+                            <hr>
+                            <div class="alignEdLeft">
+                                <h2>Kapsch BusinessCom</h2>
+                                  <a  href="http://www.kapsch.net/" target="_blank">
+                                    <img class="edImgL" src="../Pictures/kapsch.jpg" alt="Kapsch BusinessCom Leonding" title="&copy; pressetext.com" width="225" height="100">
+                                </a>
+                                nes getting taught skills usuful in a particular branch with basic higher education. Over the course of the four years, which I have been attending now, I managed to aquire a broad spectrum of experiences. I also got in touch with creating websites, which has been by far the most fun thing so far.
                             </div>
                         </div>
                         <hr>

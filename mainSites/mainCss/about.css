@@ -70,7 +70,7 @@ html,body{height:93.5%%; width:100%;}
 
 #content h1
 {
-    font-family: "Droid Sans", cursive;
+    font-family: "Droid Sans";
     font-size: 21pt;
     color: #212121;
     padding-bottom: 1.5%;
@@ -78,7 +78,7 @@ html,body{height:93.5%%; width:100%;}
 
 #content h2
 {
-    font-family: "Droid Sans", cursive;
+    font-family: "Droid Sans";
     font-size: 16pt;
     color: #212121;
     padding-bottom: 1.5%;
@@ -93,6 +93,15 @@ html,body{height:93.5%%; width:100%;}
 }
 
 #contentEd
+{ 
+    width: 65%;
+    margin-left: 17.5%;
+    margin-bottom: 7.5%;
+    margin-top: 7.5%;
+    text-align: center;
+}
+
+#contentEx
 { 
     width: 65%;
     margin-left: 17.5%;
