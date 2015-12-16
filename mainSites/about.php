@@ -52,7 +52,7 @@
                         <!-- facts > TLDRlife > Education > Experiences -->
                         <div id="contentFacts">
                             <h1>A few fun facts</h1>
-                            I'm a chocoholic, I enjoy jogging, I have an easy time learning new languages, My favourite food is pizza, I love skiing, My favourite season is Spring, I play videogames since I was a small kid and I'm pretty good at doing that.
+                            I'm a chocoholic, I enjoy jogging, I have an easy time learning new languages, My favourite food is pizza, I love skiing, My favourite season is Spring, I have played videogames since I was a small kid and I'm pretty good at doing that.
                         </div>
                         <hr>
                         <div id="contentEd">
@@ -64,7 +64,7 @@
                                 <a  href="http://www.vsthalheim.at" target="_blank">
                                     <img class="edImgL" src="../Pictures/vsthalheim.jpg" alt="Elementary school Thalheim" title="&copy; Marktgemeinde Thalheim" width="225" height="100">
                                 </a>
-                                From the age of six to ten I attended the elementary school in Thalheim bei Wels, where I lived at the time. During that time I already had decent interest into technology and everything around that, although my usage of computers and such was limited to videogames and the very basics.
+                                From the age of six to ten I attended the elementary school in Thalheim bei Wels, where I lived at that time. Back then I already had decent interest in technology and everything around it, although my usage of computers and such was limited to the very basics.
                             </div>
                             <hr>
                             <div class="alignEdLeft">
@@ -72,7 +72,7 @@
                                 <a  href="http://www.dachsberg.at" target="_blank">
                                     <img class="edImgR" src="../Pictures/gdachsberg.jpg" alt="Grammar school Dachsberg" title="&copy; Di&ouml;zese Linz" width="225" height="100">
                                 </a>
-                                I attended the grammar school in Dachsberg from 10 to 14. Between elementary and grammar school we also moved from Thalheim to Breitenaich. In those four years I also had my very first experiences with coding. 
+                                I attended the grammar school in Dachsberg from 10 to 14. Between elementary and grammar school we also moved from Thalheim to Breitenaich. In those four years I also collected my very first experiences with coding. 
                             </div>
                             <hr>
                             <div class="alignEdLeft">
