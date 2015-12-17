@@ -60,3 +60,32 @@ html,body{height:93.5%%; width:100%;}
     /*Casting Shadows*/
     box-shadow: 0px 7.5px 10px 0 #9b9c9a;
 }
+
+#content
+{
+    margin-top: 7.5%;
+    padding:0%;
+    font-family: Helvetica;
+    line-height: 20pt;
+    font-size: 12pt;
+    color: #757575; /*txtcolor*/
+    width: 75%;
+    margin-left: 12.5%;
+    margin-bottom: 7.5%;
+}
+
+#content h1
+{
+    font-family: "Droid Sans";
+    font-size: 27pt;
+    color: #212121;
+    padding-bottom: 1.5%;
+}
+
+#content h2
+{
+    font-family: "Droid Sans";
+    font-size: 16pt;
+    color: #212121;
+    padding-bottom: 1.5%;
+}
