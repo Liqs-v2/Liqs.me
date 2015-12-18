@@ -44,9 +44,6 @@
             </div>
             <div id="darkSperator"></div>
             <div id="lightSeperator"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="content col-md-12">
                         <!-- Order of content
                             1. What got me into gaming, early games
                             2. First encounter with WoW and being casual
@@ -55,31 +52,34 @@
                                 3.1 Being good in league and toxicity
                             5. Return to WoW, where I got with the new attidude (brief csgo)
                             6. My achievements and future goals or csgo here-->
-                        <div id="content">
-                            <div id="contentBeginnings">
-                                <h1>The beginnings</h1>
-                                I have always been a very competitive person. Everytime there is a ladder, a ranking or a performance-meter of some sort, I want to be on top of it, I want to have the best performance, I want to be THE best. Wether that be when playing football with my friends, a board game with my family or something as simply as hide and seek with anyone really.
-                                <br><br>
-                                So now, what was my first encounter with videogames like? The first videogame I ever played was a german RTS called "Die Siedler III", which was given to me by the brother of my mother. I was almost instantly hooked by the game, even though I only played offline. I remember that I always used to play the Romans and only attacked my enemies once I had a huge army, because I was very scared of losing my army and the game - to a computer. Now imagine, with me being scared of losing to A.I., how fun playing online would have been - probably not very. Another reason why I didn't play online, which was also the bigger reason, was, that I simply didn't know how to.
-                                <br><br>
-                            </div>
-                            <div id="contentCasual">
-                                <h1>The fascinating vastness of World of Warcraft</h1>
-                            </div>
-                            <div id="contentLoL">
-                                <h1>A change of scenery</h1>
-                            </div>
-                            <div id="contentWoW">
-                                <h1>Back to the roots</h1>
-                            </div>
-                            <div id="contentAchievements">
-                                <h1>Goals and Achievements</h1>
-                            </div>
+                    <div id="contentBeginnings">
+                        <div class="divFormatting">
+                            <h1>The beginnings</h1>
+                            I have always been a very competitive person. Everytime there is a ladder, a ranking or a performance-meter of some sort, I want to be on top of it, I want to have the best performance, I want to be THE best. Wether that be when playing football with my friends, a board game with my family or something as simply as hide and seek with anyone really.
+                            <br><br>
+                            So now, what was my first encounter with videogames like? The first videogame I ever played was a RTS called "Die Siedler III", which was given to me by the brother of my mother. I was almost instantly hooked by the game, even though I only played offline. I remember that I always used to play the Romans and only attacked my enemies once I had a huge army, because I was very scared of losing my army and the game - to a computer. Now imagine, with me being scared of losing to A.I., how fun playing online would have been - probably not very. Another reason why I didn't play online, which was also the bigger reason, was, that I simply didn't know how to.
                         </div>
                     </div>
-                </div>
-            </div>
-
+                    <div id="contentCasual">
+                        <div class="divFormatting">
+                            <h1>Exploring vast, distant worlds</h1>
+                        </div>
+                    </div>
+                    <div id="contentLoL">
+                        <div class="divFormatting">
+                            <h1>A change of scenery</h1>
+                        </div>
+                    </div>
+                    <div id="contentWoW">
+                        <div class="divFormatting">
+                            <h1>Back to the roots</h1>
+                        </div>
+                    </div>
+                    <div id="contentAchievements">
+                        <div class="divFormatting">
+                            <h1>Goals and Achievements</h1>
+                        </div>
+                    </div>
     	<!--footer-->
     	<?php $dirHelper="../footerLinks/" ?>
         <?php include("../includes/footer.php"); ?>
